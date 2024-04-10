@@ -66,22 +66,24 @@
 // the first number then continues with the leftmost segments from the bottom to the top. I added extra spaces
 // between the numbers and the separator column just for better clarity.
 
-#define LC_LEDS_PER_SEGM 2 // LEDs per segment
+#define LC_LEDS_PER_SEGM 3 // LEDs per segment
 
 #define LC_LEDMAP \
--1,  6,  7, -1,    -1, 20, 21, -1,    -1,    -1, 36, 37, -1,    -1, 50, 51, -1, \
- 5, -1, -1,  8,    19, -1, -1, 22,    -1,    35, -1, -1, 38,    49, -1, -1, 52, \
- 4, -1, -1,  9,    18, -1, -1, 23,    29,    34, -1, -1, 39,    48, -1, -1, 53, \
--1, 11, 10, -1,    -1, 25, 24, -1,    -1,    -1, 41, 40, -1,    -1, 55, 54, -1, \
- 3, -1, -1, 12,    17, -1, -1, 26,    28,    33, -1, -1, 42,    47, -1, -1, 56, \
- 2, -1, -1, 13,    16, -1, -1, 27,    -1,    32, -1, -1, 43,    46, -1, -1, 57, \
--1,  1,  0, -1,    -1, 15, 14, -1,    -1,    -1, 31, 30, -1,    -1, 45, 44, -1  \
+-1, 70, 69, 68, -1,    -1, 49, 48, 47, -1,    -1,    -1, 26, 25, 24, -1,    -1, 5, 4, 3, -1, \
+71, -1, -1, -1, 67,    50, -1, -1, -1, 46,    -1,    27, -1, -1, -1, 23,     6, -1, -1, -1, 2, \
+72, -1, -1, -1, 66,    51, -1, -1, -1, 45,    -1,    28, -1, -1, -1, 22,     7, -1, -1, -1, 1, \
+73, -1, -1, -1, 65,    52, -1, -1, -1, 44,    42,    29, -1, -1, -1, 21,     8, -1, -1, -1, 0, \
+-1, 74, 75, 76, -1,    -1, 53, 54, 55, -1,    -1,    -1, 30, 31, 32, -1,    -1, 9, 10, 11, -1, \
+85, -1, -1, -1, 77,    64, -1, -1, -1, 56,    43,    41, -1, -1, -1, 33,    20, -1, -1, -1, 12, \
+84, -1, -1, -1, 78,    63, -1, -1, -1, 57,    -1,    40, -1, -1, -1, 34,    19, -1, -1, -1, 13, \
+83, -1, -1, -1, 79,    62, -1, -1, -1, 58,    -1,    39, -1, -1, -1, 35,    18, -1, -1, -1, 14, \
+-1,  82, 81, 80, -1,   -1, 61, 60, 59, -1,    -1,    -1, 38, 37, 36, -1,    -1, 17, 16, 15, -1  \
 
 // Next configure the separator LEDs by first defining how many of them you have:
 #define LC_SEP_LEDS 2
 
 // Then write their row indices separated by commas below (notice the separator LEDs #28 and #29 having row indices 2 and 4 in the above LED map):
-#define LC_SEP_LED_ROWS 2, 4
+#define LC_SEP_LED_ROWS 3, 5
 
 // Finally, don't forget to change the total number of LEDs (DEFAULT_LED_COUNT) in `platformio_override.ini`,
 // set it to the total size of the LED matrix you have. This number is calculated below and a compiler warning
