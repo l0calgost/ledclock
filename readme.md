@@ -3,9 +3,6 @@
   <a href="https://github.com/l0calgost/ledclock/releases"><img src="https://img.shields.io/github/release/l0calgost/ledclock.svg?style=flat-square"></a>
   <a href="https://raw.githubusercontent.com/l0calgost/ledclock/master/LICENSE"><img src="https://img.shields.io/github/license/l0calgost/ledclock?color=blue&style=flat-square"></a>
   <a href="https://github.com/Aircoookie/WLED-App"><img src="https://img.shields.io/badge/app-wled-blue.svg?style=flat-square"></a>
- 
-  
-  
   <a href="https://l0calgost.github.io/ledclock/"><img src="https://img.shields.io/badge/install-esp%20web%20tools-green"></a>
 </p>
 
