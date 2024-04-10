@@ -1,17 +1,17 @@
 ![LED Clock](/ledclock/images/ledclock-logo-github.svg)
 <p align="center">
-  <a href="https://github.com/imeszaros/ledclock/releases"><img src="https://img.shields.io/github/release/imeszaros/ledclock.svg?style=flat-square"></a>
-  <a href="https://raw.githubusercontent.com/imeszaros/ledclock/master/LICENSE"><img src="https://img.shields.io/github/license/imeszaros/ledclock?color=blue&style=flat-square"></a>
+  <a href="https://github.com/l0calgost/ledclock/releases"><img src="https://img.shields.io/github/release/l0calgost/ledclock.svg?style=flat-square"></a>
+  <a href="https://raw.githubusercontent.com/l0calgost/ledclock/master/LICENSE"><img src="https://img.shields.io/github/license/l0calgost/ledclock?color=blue&style=flat-square"></a>
   <a href="https://github.com/Aircoookie/WLED-App"><img src="https://img.shields.io/badge/app-wled-blue.svg?style=flat-square"></a>
-  <a href="https://www.printables.com/model/189433-wi-fi-connected-led-clock-powered-by-wled"><img src="https://img.shields.io/badge/models-printables-orange.svg?style=flat-square"></a>
-  <a href="https://www.thingiverse.com/thing:5365230"><img src="https://img.shields.io/badge/models-thingiverse-blue.svg?style=flat-square"></a>
-  <a href="https://ko-fi.com/imeszaros"><img src="https://img.shields.io/badge/support-ko--fi.com-gold"></a>
-  <a href="https://imeszaros.github.io/ledclock/"><img src="https://img.shields.io/badge/install-esp%20web%20tools-green"></a>
+ 
+  
+  
+  <a href="https://l0calgost.github.io/ledclock/"><img src="https://img.shields.io/badge/install-esp%20web%20tools-green"></a>
 </p>
 
 # LED Clock
 
-A customizable 7-segment style Wi-Fi connected clock powered by [WLED](https://github.com/Aircoookie/WLED). This repository not only hosts the source code of the firmware but also serves as the documentation of this project providing all necessary files and information to replicate it.
+A customizable 7-segment style Wi-Fi connected clock powered by [WLED](https://github.com/Aircoookie/WLED) and the clock adaption from [imeszaros](https://github.com/imeszaros/ledclock). This repository not only hosts the source code of the firmware but also serves as the documentation of this project providing all necessary files and information to replicate it.
 
 ## Overview
 
@@ -19,7 +19,7 @@ The clock has three essential parts: a 3D-printed enclosure, the electronics and
 
 **The enclosure** was designed in Fusion 360. 3D printing it requires two kinds of materials, an opaque and a translucent one. The clock is ~40 cm wide, so a 3D printer with a large build area is necessary to print the base platform and bottom plate.
 
-**The electronics** are fairly simple: the heart of the project is an ESP32 chip which drives 58 pieces of WS2812b individually addressable LED chips. The LEDs form four 7-segment displays (each segment has two LEDs) and a separator consisting of two LEDs. An USB interface circuitry is also included for easy firmware upgrades. There's also an ambient light sensor for automatic brightness control, and a small piezo speaker for making some noise.
+**The electronics** are fairly simple: the heart of the project is an ESP32 chip which drives 86 pieces of WS2812b individually addressable LED chips. The LEDs form four 7-segment displays (each segment has three LEDs) and a separator consisting of two LEDs. An USB interface circuitry is also included for easy firmware upgrades. There's also an ambient light sensor for automatic brightness control, and a small piezo speaker for making some noise.
 
 **The firmware** is powered by the awesome project [WLED](https://github.com/Aircoookie/WLED). It is pre-configured with all the correct parameters, hides all irrelevant settings and features but provides additional functionality specific to this project.
 
