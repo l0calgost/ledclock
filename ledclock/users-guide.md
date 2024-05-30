@@ -2,22 +2,22 @@
 
 This page assumes that you already have the clock fully assembled with the firmware uploaded to it.
 
-- [1. Turning the clock off and on](#1-turning-the-clock-off-and-on)
-- [2. Wi-Fi connection](#2-wi-fi-connection)
-- [3. Using the smartphone application](#3-using-the-smartphone-application)
-- [4. Top buttons](#4-top-buttons)
-- [5. Colors, palettes and effects](#5-colors-palettes-and-effects)
-- [6. Time and time zone settings](#6-time-and-time-zone-settings)
-- [7. Clock features](#7-clock-features)
-  - [7.1. Clock](#71-clock)
-  - [7.2. Timer](#72-timer)
-  - [7.3. Stopwatch](#73-stopwatch)
-- [8. Clock Settings](#8-clock-settings)
-  - [8.1. Brightness Control](#81-brightness-control)
-  - [8.2. Display Settings](#82-display-settings)
-  - [8.3. Beeps](#83-beeps)
-- [9. Firmware upgrade](#9-firmware-upgrade)
-- [10. Help](#10-help)
+- [Users guide](#users-guide)
+  - [1. Turning the clock off and on](#1-turning-the-clock-off-and-on)
+  - [2. Wi-Fi connection](#2-wi-fi-connection)
+  - [3. Using the smartphone application](#3-using-the-smartphone-application)
+  - [4. Top buttons](#4-top-buttons)
+  - [5. Colors, palettes and effects](#5-colors-palettes-and-effects)
+  - [6. Time and time zone settings](#6-time-and-time-zone-settings)
+  - [7. Clock features](#7-clock-features)
+    - [7.1. Clock](#71-clock)
+    - [7.2. Timer](#72-timer)
+    - [7.3. Stopwatch](#73-stopwatch)
+  - [8. Clock Settings](#8-clock-settings)
+    - [8.1. Brightness Control](#81-brightness-control)
+    - [8.2. Display Settings](#82-display-settings)
+  - [9. Firmware upgrade](#9-firmware-upgrade)
+  - [10. Help](#10-help)
 
 ## 1. Turning the clock off and on
 
@@ -77,6 +77,7 @@ On the first tab (Colors) you can select the color palette by choosing it from t
 ![Palettes](images/screenshot-palettes.png)
 
 To create a custom palette, tap on one of the following buttons:
+
 - Color 1
 - Color Gradient
 - Colors 1&2
@@ -158,9 +159,7 @@ The device has an ambient light sensor to be able to automatically adjust the br
 
 ![Brightness Control](images/screenshot-brightness-control.png)
 
-You can also set the minimum and maximum brightness levels (applies only when the automatic brightness control is enabled).
-
-Note that when the automatic brightness control is enabled, you cannot set the brightness level manually using the global *brightness slider*:
+You can also set the minimum and maximum brightness levels.
 
 ![Brightness](images/screenshot-brightness.png)
 
@@ -171,16 +170,6 @@ You can control whether leading zero should be displayed or not. If the *Hide le
 ![Display Settings](images/screenshot-display-settings.png)
 
 Behavior of the hour-minute separator can be also changed here by selecting it from the *Hour-minute Separator* drop-down.
-
-### 8.3. Beeps
-
-The clock has small buzzer that can beep on various events or provide audible feedback. You can toggle beeping globally with the help of the *Mute all beeps* checkbox.
-
-![Mute Beeps](images/screenshot-mute-beeps.png)
-
-Below this there are drop-downs to assign a beeping style to various events or functions. Selecting a beep will play it immediately to verify wether it's an appropriate choice or not.
-
-![Beeps](images/screenshot-beeps.png)
 
 Do not forget to tap on the *Save* button to apply your changes.
 
@@ -194,7 +183,7 @@ To check which version of the firmware you are running, tap on the *Info* button
 
 If you need to upgrade, follow the procedure below:
 
-- first download the latest firmware binary from the [releases page](https://github.com/imeszaros/ledclock/releases)
+- first download the latest firmware binary from the [releases page](https://github.com/l0calgost/ledclock/releases)
 - go to **Config / Security & Updates**
 - tap on **Manual OTA Update**
 - browse the downloaded firmware binary
@@ -203,8 +192,8 @@ If you need to upgrade, follow the procedure below:
 
 If you're using the Android app and the version number has not changed following the upgrade, please clear the data of the Android application and re-add your clock to force reloading the new version of the UI.
 
-If for any reason the over-the-air upgrade fails, try the [USB installation method](https://imeszaros.github.io/ledclock/).
+If for any reason the over-the-air upgrade fails, try the [USB installation method](https://l0calgost.github.io/ledclock/).
 
 ## 10. Help
 
-Can't find a solution for your problem on this page? Feel free to [contact me](https://github.com/imeszaros).
+Can't find a solution for your problem on this page? Feel free to [contact me](https://github.com/l0calgost/ledclock).
