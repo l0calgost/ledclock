@@ -26,10 +26,6 @@ Here are two pictures of the completed project:
 ![Photo 2](ledclock/images/photo2.jpg)
 
 
-YouTube video:
-
-[![Assembly video](https://img.youtube.com/vi/T4L4ywKFfpU/0.jpg)](https://www.youtube.com/watch?v=T4L4ywKFfpU)
-
 ## Features
 
 - Clock function
