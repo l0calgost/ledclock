@@ -1,3 +1,6 @@
+# Assembly Guide
+This guide describes how to build the clock
+
 # Clock assembly
 Assemble the start, end, digit and colon segments according to the following picture:
 ![Assembly clock front](images/assembly_clock_front.png)
