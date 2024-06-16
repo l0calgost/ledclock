@@ -60,11 +60,9 @@ This repository has all information you need to make this project:
 - [Schematic and PCB design](/ledclock/sch-pcb/)
 - [Gerber files for PCB production](/ledclock/gerber/)
 - [Bill of materials](/ledclock/bill-of-materials.md)
-- [Assembly video](/ledclock/assembly-guide.md)
+- [Assembly insctructions](/ledclock/assembly-guide.md)
 
 ## Do you like it?
 
-You can buy me a coffee to support my work: https://ko-fi.com/imeszaros
-
-Do you need help? Have you built the clock? Feel free to [contact me](https://github.com/imeszaros).
+Do you need help? Have you built the clock? Feel free to [contact me](https://github.com/l0calgost).
 
