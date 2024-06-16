@@ -18,6 +18,7 @@ Wire the electronics either by ordering the provided PCB or by the following sch
 ![Electronics_Wiring](images/assembly_electronics_schematics_kicad.png)
 
 Install the PCB and the micro USB board in the start segment and wire the pcb with the leds:
+
 ![Assembly led](images/assembly_electronics_pcb.png)
 
 Close the segments with the back covers and secure them with M3x8 countersunk head screws
