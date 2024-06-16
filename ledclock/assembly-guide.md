@@ -20,14 +20,14 @@ Every 7-segment-digit requires three LEDs. Wire the LEDs in the following way. T
 ![Assembly electronics_led](images/assembly_electronics_led.png)
 
 ## 3. Final Assembly
-Mount the LED holders to the digit and colon segments. Note that this is the view from the back:
+Mount the LED holders to the digit and colon segments with M3x8mm flat head screws. Note that this is the view from the back:
 ![Assembly led](images/assembly_led.png)
 
 ## 4. Integrate Electronics
 Wire the electronics either by ordering the provided PCB or by the following schematics:
 ![Electronics_Wiring](images/assembly_electronics_schematics_kicad.png)
 
-Install the PCB and the micro USB board in the start segment and wire the pcb with the leds:
+Install the PCB with M2x6 cylinder heat screws and the micro USB board with M3x5 cylinder head screws in the start segment and wire the pcb with the leds:
 
 ![Assembly led](images/assembly_electronics_pcb.png)
 
