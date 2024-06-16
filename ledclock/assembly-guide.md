@@ -1,24 +1,24 @@
 # Clock assembly
 Assemble the start, end, digit and colon segments according to the following picture:
-![Assembly clock front](ledclock/images/assembly_clock_front.png)
-![Assembly clock back](ledclock/images/assembly_clock_back.png)
+![Assembly clock front](images/assembly_clock_front.png)
+![Assembly clock back](images/assembly_clock_back.png)
 
 You can optionally secure the segments with the 3x8mm flat head screws and M3 nuts.
 
 # LED strip wiring
 Every 7-segment-digit requires three LEDs. Wire the LEDs in the following way. The arrows on the LED holders give additional guidance
-![Assembly electronics_led](ledclock/images/assembly_electronics_led.png)
-
-# Integrate Electronics
-Wire the electronics either by the ordering the provided PCB or by the following schematics:
-#TODO
+![Assembly electronics_led](images/assembly_electronics_led.png)
 
 # Final Assembly
 Mount the LED holders to the digit and colon segments:
-![Assembly led](ledclock/images/assembly_led.png)
+![Assembly led](images/assembly_led.png)
+
+# Integrate Electronics
+Wire the electronics either by ordering the provided PCB or by the following schematics:
+![Electronics_Wiring](images/assembly_electronics_schematics_kicad.png)
 
 Install the PCB and the micro USB board in the start segment and wire the pcb with the leds:
-![Assembly led](ledclock/images/assembly_electronics_pcb.png)
+![Assembly led](images/assembly_electronics_pcb.png)
 
 Close the segments with the back covers and secure them with M3x8 countersunk head screws
 
